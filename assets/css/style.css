@@ -1,0 +1,518 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+   
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+  
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+   
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a{
+    padding: 15px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #727272;
+    font-size: 14PX;
+}
+
+nav .active a,
+nav a:hover{
+    background-color: #39AAE1;
+    color: white;
+}
+
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/img1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.column h1, h2{
+    max-width: 400px;
+}
+
+.banner_headline{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.banner_headline h1{
+    color: white;
+    font-size: 70px;
+    font-weight: lighter;
+    text-shadow: 0px 1px 0px #5555;
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner_headline h2{
+    color: white;
+    font-size: 21px;
+    font-weight: lighter;
+    text-shadow: 0px 1px 0px #5555;
+    margin: 0px;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.banner_options{
+    height: 210px;
+    display: flex;
+}
+
+.banner1,
+.banner2,
+.banner3{
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+
+.banner1{
+    background-color: #39aae1;
+}
+.banner2{
+    background-color: #0079c7;
+}
+.banner3{
+    background-color: #2b4c99;
+}
+
+.banner_title{
+    font-size: 21px;
+}
+
+.banner_desc{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.banner_options a{
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.banner_openning{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid #ffffff2d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.banner3 .banner_title{
+    margin-bottom: 10px;
+}
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+
+#geral section{
+    flex: 2;
+
+}
+
+#geral aside{
+    flex: 1;
+}
+
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text{
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar{
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+.widget_body{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+aside .widget_text{
+    margin-bottom: 30px;
+}
+
+.widget_appointment_body{
+    display: flex;
+    flex-direction: column;
+    color: #5c5c5c;
+}
+
+.widget_appointment{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.widget_appointment p{
+    margin: 0px;
+}
+
+.widget_appointment a{
+    text-decoration: underline dotted 2px;
+    color: #2b4c99;
+}
+
+.widget_appointment .icon{
+    height: 30px;
+    width: 30px;
+    background-color: #ccc;
+}
+
+.appointmentBorderTop{
+    border-top: 1px solid #7676769f;
+}
+
+.appointmentBorderbottom{
+    border-bottom: 1px solid #7676769f;
+}
+.widget_contact{
+    display: flex;
+    margin-left: 10px;
+}
+
+.widget_departments{
+    background-color: #36a9e1;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 25px;
+}
+
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+article a{
+    text-decoration: none;
+}
+
+article .news_date{
+    display: flex;
+}
+
+article .news_posted_at{
+    background-color: #2b4c99;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+article .news_comments{
+    background-color: #39aae1;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
+
+article .news_thumbnail{
+    margin-top: 30px;
+}
+
+article .news_thumbnail img{
+    width: 100%;
+    height: auto;
+}
+
+article .news_title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 23px;
+}
+
+article .news_resume{
+    color: #5c5c5c;
+    line-height: 20px;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1e1e1e;
+}
+
+.footer_menu{
+    display: flex;
+    flex: 1;
+    color: white;
+}
+
+.footer_menu a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.fm_title{
+    font-size: 21px;
+}
+
+.fm_desc{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 13px;
+}
+
+.fm_desc .arrow{
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
+.fm_1, .fm_2, .fm_3{
+    flex: 1;
+    padding: 20px;
+}
+
+.fm_1{
+    background-color: #39aae1;
+}
+.fm_2{
+    background-color: #0079c7;
+}
+.fm_3{
+    background-color: #2b4c99;
+}
+
+.flex_column{
+    flex-direction: column;
+}
+
+.footer_area{
+    display: flex;
+}
+
+.footer_areaitem{
+    flex: 1;
+    color: white;
+}
+
+footer .widget_title_text{
+    color: white;
+}
+
+footer .widget_body{
+    flex-direction: column;
+    font-size: 13px;
+    color: #767676;
+}
+
+footer .widget_text{
+    margin-bottom: 25px;
+}
+
+footer p{
+    margin: 0px;
+    padding: 0px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.widget_address{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer address{
+    font-style: normal;
+}
+
+footer .latestposts{
+    display: flex;
+    color: white;
+}
+
+footer .tweets{
+    display: flex;
+}
+
+.arrow{
+    margin-right: 5px;
+}
+
+.postdate{
+    margin-top: 5px;
+    color:#0079c7;
+}
+
+.footer_copy{
+    border-top: 1px solid #ffffff2d;
+    color: #767676;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.menuMobile{
+    display: none;
+    height: 40px;
+    width: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.mm_line{
+    height: 3px;
+    background-color: #39aae1;
+    border-radius: 180pt;
+}
+
+@media (max-width:850px){
+    header .container{
+        flex-direction: column;
+        padding-left:20px;
+    }
+    .container .logo{
+        flex: 2;
+    }
+    .column.menu{
+        flex: 1;
+    }
+}
+
+@media (max-width:650px){
+    .banner_headline{
+        padding: 20px;
+    }
+    .banner_headline h1 {
+        font-size: 55px;
+    }
+    .banner_headline h2{
+        font-size: 17px;
+    }
+    .banner_options{
+        height: auto;
+        flex-direction: column;
+    }
+    .banner1, 
+    .banner2,
+    .banner3{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    #geral section, #geral aside {
+        padding: 20px;
+    }
+    .footer_menu{
+        flex-direction: column;
+    }
+    .fm_1,
+    .fm_2,
+    .fm_3{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .fm_desc{
+        margin-bottom: 0px;
+    }
+    .footer_area{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer_copy{
+        padding-left: 20px;
+    }
+
+    header .container{
+        flex-direction: row;
+    }
+    nav ul{
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
+    }
+
+    header{
+        height: auto;
+    }
+
+    .logo{
+        padding-left: 20px;
+    }
+    .menuMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
